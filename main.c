@@ -14,7 +14,7 @@ int directstats(DIR* direct){
   
   if (!direct){
         printf("No such directory.");
-        return ;
+        return -1;
   }
   else{ 
     /* print all the files and directories within directory */
@@ -29,6 +29,7 @@ int directstats(DIR* direct){
      }
    }
    return sum; 
+  }
 }
   
 int main(){
