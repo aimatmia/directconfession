@@ -1,7 +1,7 @@
 GCC = gcc -g
 
-all: direct.c
-	$(GCC) direct.c -o dir
+all: main.c
+	$(GCC) main.c -o dir
 
 clean:
 	rm *~
